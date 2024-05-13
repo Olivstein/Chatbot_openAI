@@ -14,7 +14,7 @@ templates = Jinja2Templates(directory = "templates")
 
 client = AzureOpenAI(
     azure_endpoint = "https://code-doc-gen.openai.azure.com/", 
-    api_key = "5301ba53492b46f1959bb93859ccd58e",  
+    api_key = os.getenv('OPENAI_API_SECRET_KEY'),  
     api_version = "2024-02-15-preview")
 
 chat_responses =[]

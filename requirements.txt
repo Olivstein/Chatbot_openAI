@@ -1,8 +1,8 @@
-fastapi==0.103.2
-gunicorn==20.1.0
-Jinja2==3.1.2
+aiofiles==23.2.1
 openai==1.6.1
-openpyxl==3.1.2
+Jinja2==3.1.2
+fastapi==0.103.2
+python-multipart==0.0.9
+python-dotenv==1.0.0
 uvicorn==0.24.0
-websocket-client==1.7.0
 websockets==11.0.3
